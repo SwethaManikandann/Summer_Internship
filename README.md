@@ -70,7 +70,10 @@ View the knowledge graph and insights for the entered crop.
 
 # Future Enhancements
 Real-Time Data Integration: Incorporate real-time weather and market data for dynamic predictions.
+
 Enhanced Visualizations: Add interactive graphs using tools like Plotly or D3.js.
+
 Mobile-Friendly Interface: Adapt the Flask app for mobile devices to improve accessibility.
+
 Expanded Dataset: Integrate additional crops, soil data, and economic parameters for broader applicability.
 
