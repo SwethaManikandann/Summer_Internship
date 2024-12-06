@@ -1,5 +1,5 @@
 # Summer_Internship
-**FNN Crop Production Rate Prediction for farmers using Knowledge Graph**
+# **FNN Crop Production Rate Prediction for farmers using Knowledge Graph**
 
 # Project Overview
 This project implements a deep learning-based approach to classify crop production levels (low, medium, high) and visualize insights using a knowledge graph. A user-friendly Flask web interface is designed for user interaction, allowing real-time visualization of crop-specific knowledge graphs based on the input crop name.
@@ -30,7 +30,7 @@ Target Variable: Production Class (Low, Medium, High).
         Highlight the state and season with the highest production for the given crop.
         User Interaction:
 
-**Develop a Flask-based web application for user input and graph visualization.**
+# Develop a Flask-based web application for user input and graph visualization.
 # Libraries Used
 
 Deep Learning: TensorFlow, Keras
@@ -41,7 +41,7 @@ Graph Visualization: NetworkX, Matplotlib
 
 Web Development: Flask
 
-**System Requirements**
+# System Requirements
 # Hardware:
 Processor: Intel Core i5 or higher.
 RAM: Minimum 8GB.
