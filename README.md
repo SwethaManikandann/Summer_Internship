@@ -25,7 +25,10 @@ Target Variable: Production Class (Low, Medium, High).
 2) Model Development:
         Train a deep learning model using TensorFlow/Keras with multiple hidden layers and ReLU activation.
         Use early stopping to optimize training and prevent overfitting.
-3) Knowledge Graph Generation:
+![image](https://github.com/user-attachments/assets/699c4756-7c15-4857-a26b-46cc4d2ee3ec)
+
+   
+4) Knowledge Graph Generation:
         Use NetworkX to create graphs visualizing crop relationships with states and seasons.
         Highlight the state and season with the highest production for the given crop.
         User Interaction:
