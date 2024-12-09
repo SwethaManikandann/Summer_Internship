@@ -12,8 +12,11 @@ Scalable design to incorporate additional data and real-time predictions.
 
 # 📊 **Dataset**
 Source: Indian Agriculture Crop Production database.
+
 Key Features:
+
 `Crop Type`, `Season`, `State`, `District`, `Area`, `Crop Year`, `Production Rate`.
+
 Target Variable: Production Class (`Low, Medium, High`).
 
 # ⚙️**System Workflow**
@@ -21,16 +24,24 @@ Target Variable: Production Class (`Low, Medium, High`).
         Handle missing values and normalize categorical data using label encoding.
         Define production classes using quantiles for multi-class classification.
         Scale feature data and one-hot encode the target variable.
-        ![Crop production Dataset](dataset.JPG)
-2) Model Development:
+        
+   ![Crop production Dataset](https://github.com/user-attachments/assets/4cb61081-657e-4383-b28c-5f139b8bdc22)
+
+3) Model Development:
         Train a deep learning model using TensorFlow/Keras with multiple hidden layers and ReLU activation.
         Use early stopping to optimize training and prevent overfitting.
-        ![Model Training & Evaluation](ar3.PNG)
-        ![Classification Metrics for each class](classi.JPG)
-        ![Comparison of Predicted and Actual classes](comp.JPG)
-        ![Training and Validation Accuracy over epochs](acc.JPG)
-        ![Training and Validation loss over epochs](loss.JPG)
-3) Knowledge Base Construction:
+       
+   ![Model Training & Evaluation](https://github.com/user-attachments/assets/c306d601-11f5-4bb8-86ff-b9614c4b3c6a)
+
+   ![Classification Metrics for each class](https://github.com/user-attachments/assets/8d4007ec-4b34-4f6c-b17e-42f3a2847509)
+
+   ![Comparison of Predicted and Actual classes](https://github.com/user-attachments/assets/e13cd3c6-588f-4d9d-88fd-642c236540a9)
+
+   ![Training and Validation Accuracy over epochs](https://github.com/user-attachments/assets/a987e465-9a59-441c-95be-64fc08b29eb1)
+   
+   ![Training and Validation loss over epochs](https://github.com/user-attachments/assets/79a50543-278b-43a4-84d3-72aaefde58b5)
+
+5) Knowledge Base Construction:
         A KB for predicting crop production rates and prices can consist of the following components:
 
         Entities: Key objects such as crops, years, regions, production rates, and prices.
@@ -40,15 +51,22 @@ Target Variable: Production Class (`Low, Medium, High`).
         Relationships: Links between entities (e.g., "Region X affects Crop Y's production").
 
         Rules: Logical inferences or trends derived from historical data and predictive models.
-        ![Knowledge Base in Tabular Form](<kb.JPG>)
+   
+   ![Knowledge Base in Tabular Form](https://github.com/user-attachments/assets/4bbaba6f-b9be-48f3-a97b-ac763a33e55b)
+
         
-4) Knowledge Graph Generation:
+7) Knowledge Graph Generation:
         Use NetworkX to create graphs visualizing crop relationships with states and seasons.
         Highlight the state and season with the highest production for the given crop.
-        ![Knowledge Graph generation](<result image.JPG>)
-5) User Interaction:
+        
+   ![Knowledge Graph generation](https://github.com/user-attachments/assets/8f9baa6b-2096-40cd-8c42-bcf68a0c403f)
+
+9) User Interaction:
         Develop a Flask-based web application for user input and graph visualization.
-        ![User Interface](5.png)
+   
+   ![User Interface](https://github.com/user-attachments/assets/3883a20e-1af8-4745-8fca-7a0fc03d77e5)
+
+
 
 
 # 📚 **Libraries Used**
@@ -83,11 +101,15 @@ Open the web interface at http://127.0.0.1:5000 or http://192.168.1.120:5000
 
 # Input:
 Enter the name of the crop (e.g., "Rice").
-!(4.png)
+
+!(https://github.com/user-attachments/assets/27580edc-d9f8-433f-8465-94d47c79f669)
+
 
 # Output:
 View the knowledge graph and insights for the entered crop.
-!(5-1.png)
+
+![5](https://github.com/user-attachments/assets/a8adcc91-18a9-49d8-810e-c53752aa5ac5)
+
 
 # 🔮 **Future Enhancements**
 - **Real-Time Data Integration**: Incorporate real-time weather and market data for dynamic predictions.
