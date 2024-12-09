@@ -55,7 +55,7 @@ Target Variable: Production Class (`Low, Medium, High`).
    
    ![Training and Validation loss over epochs](https://github.com/user-attachments/assets/79a50543-278b-43a4-84d3-72aaefde58b5)
 
-**4)  Knowledge Base Construction:**
+**3)  Knowledge Base Construction:**
         A KB for predicting crop production rates and prices can consist of the following components:
 
         Entities: Key objects such as crops, years, regions, production rates, and prices.
@@ -69,13 +69,13 @@ Target Variable: Production Class (`Low, Medium, High`).
    ![Knowledge Base in Tabular Form](https://github.com/user-attachments/assets/4bbaba6f-b9be-48f3-a97b-ac763a33e55b)
 
         
-**5) Knowledge Graph Generation:**
+**4) Knowledge Graph Generation:**
         Use NetworkX to create graphs visualizing crop relationships with states and seasons.
         Highlight the state and season with the highest production for the given crop.
         
    ![Knowledge Graph generation](https://github.com/user-attachments/assets/8f9baa6b-2096-40cd-8c42-bcf68a0c403f)
 
-**6) User Interaction:**
+**5) User Interaction:**
         Develop a Flask-based web application for user input and graph visualization.
    
    ![User Interface](https://github.com/user-attachments/assets/3883a20e-1af8-4745-8fca-7a0fc03d77e5)
