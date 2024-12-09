@@ -20,14 +20,14 @@ Key Features:
 Target Variable: Production Class (`Low, Medium, High`).
 
 # ⚙️**System Workflow**
-1) # Data Preprocessing:
+**1)  Data Preprocessing:**
         Handle missing values and normalize categorical data using label encoding.
         Define production classes using quantiles for multi-class classification.
         Scale feature data and one-hot encode the target variable.
         
    ![Crop production Dataset](https://github.com/user-attachments/assets/4cb61081-657e-4383-b28c-5f139b8bdc22)
 
-2) # Model Development:
+**2)  Model Development:**
         Train a deep learning model using TensorFlow/Keras with multiple hidden layers and ReLU activation.
         Use early stopping to optimize training and prevent overfitting.
        
@@ -37,20 +37,25 @@ Target Variable: Production Class (`Low, Medium, High`).
 
 
    ![Classification Metrics for each class](https://github.com/user-attachments/assets/8d4007ec-4b34-4f6c-b17e-42f3a2847509)
+   # Predicted and Actual classes
    ![image](https://github.com/user-attachments/assets/8f10d99b-e4ea-408e-800c-64aaff576981)
 
    ![Comparison of Predicted and Actual classes](https://github.com/user-attachments/assets/e13cd3c6-588f-4d9d-88fd-642c236540a9)
 
+   # Training and Validation Accuracy over epochs
+
    ![image](https://github.com/user-attachments/assets/05d1fb7e-ab70-4bd7-a6f6-7245db0f6ef0)
 
    ![Training and Validation Accuracy over epochs](https://github.com/user-attachments/assets/a987e465-9a59-441c-95be-64fc08b29eb1)
+
+   # Training and Validation loss over epochs
 
    ![image](https://github.com/user-attachments/assets/7d678a0b-6baf-48f1-b3fc-338ea6988f33)
 
    
    ![Training and Validation loss over epochs](https://github.com/user-attachments/assets/79a50543-278b-43a4-84d3-72aaefde58b5)
 
-4) # Knowledge Base Construction:
+**4)  Knowledge Base Construction:**
         A KB for predicting crop production rates and prices can consist of the following components:
 
         Entities: Key objects such as crops, years, regions, production rates, and prices.
@@ -64,13 +69,13 @@ Target Variable: Production Class (`Low, Medium, High`).
    ![Knowledge Base in Tabular Form](https://github.com/user-attachments/assets/4bbaba6f-b9be-48f3-a97b-ac763a33e55b)
 
         
-5) Knowledge Graph Generation:
+**5) Knowledge Graph Generation:**
         Use NetworkX to create graphs visualizing crop relationships with states and seasons.
         Highlight the state and season with the highest production for the given crop.
         
    ![Knowledge Graph generation](https://github.com/user-attachments/assets/8f9baa6b-2096-40cd-8c42-bcf68a0c403f)
 
-6) User Interaction:
+**6) User Interaction:**
         Develop a Flask-based web application for user input and graph visualization.
    
    ![User Interface](https://github.com/user-attachments/assets/3883a20e-1af8-4745-8fca-7a0fc03d77e5)
