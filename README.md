@@ -25,6 +25,15 @@ Target Variable: Production Class (Low, Medium, High).
 2) Model Development:
         Train a deep learning model using TensorFlow/Keras with multiple hidden layers and ReLU activation.
         Use early stopping to optimize training and prevent overfitting.
+
+   ![image](https://github.com/user-attachments/assets/402a25b7-5ada-4162-86e2-b4537951035d)
+
+   ![image](https://github.com/user-attachments/assets/759b9367-5e4a-4322-9347-654f90683d1b)
+
+
+![image](https://github.com/user-attachments/assets/2205bef6-4ffd-42c8-b090-767c9a2f88ad)
+
+   
 ![image](https://github.com/user-attachments/assets/699c4756-7c15-4857-a26b-46cc4d2ee3ec)
 
    
