@@ -1,6 +1,6 @@
-**🌾FNN Crop production rate prediction for farmers using Knowledge Graph**
+# 🌾 **FNN Crop production rate prediction for farmers using Knowledge Graph**
 
-##📜 **Project Overview**
+# 📜 **Project Overview**
 This project implements a deep learning-based approach to classify crop production levels (low, medium, high) and visualize insights using a knowledge graph. A user-friendly Flask web interface is designed for user interaction, allowing real-time visualization of crop-specific knowledge graphs based on the input crop name.
 
 # Features
